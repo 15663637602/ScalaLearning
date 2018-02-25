@@ -1,6 +1,11 @@
 # ScalaLearning
 Scala Programming notebook from Coursera lectures
 
+
+filter is the common method to filter collections in scala. There is filter method in collections, Option, Future, Try and so on.
+
+withFilter is there for for comprehensions. if statement in for comprehensions is translated into call of withFilter.
+
 List functions:
 一、常用操作符（操作符其实也是函数）
 ++ ++[B](that: GenTraversableOnce[B]): List[B] 从列表的尾部添加另外一个列表
