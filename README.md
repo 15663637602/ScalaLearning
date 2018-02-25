@@ -4,7 +4,7 @@ Scala Programming notebook from Coursera lectures
 
 filter is the common method to filter collections in scala. There is filter method in collections, Option, Future, Try and so on.
 
-withFilter is there for for comprehensions. if statement in for comprehensions is translated into call of withFilter.
+withFilter(lazy filter, not produce value immediately) is there for for comprehensions. if statement in for comprehensions is translated into call of withFilter.
 
 List functions:
 一、常用操作符（操作符其实也是函数）
